@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import {Route, Routes} from 'react-router-dom';
+//import LandingPage from './assets/LandingPage.png';
+//import LandingPageHeader from './components/landingPageHeader';
+import Login from './components/login';
+import LandingPage from './components/landingPage';
+import Register from './components/register';
+import Home from './components/home';
+import Tests from './components/tests';
+import Instruction from './components/instruction';
+import Question from './components/question';
+import Score from './components/score';
 
-function App() {
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/tests" element={<Tests />} />
+        <Route path="/instruction" element={<Instruction />} />
+        <Route path="/question" element={<Question />} />
+        <Route path="/score" element={<Score />} />
+
+      </Routes>
+      {/* <LandingPage /> */}
+    </React.Fragment>
   );
 }
 
