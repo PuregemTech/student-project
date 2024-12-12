@@ -244,7 +244,7 @@ class Question extends Component {
     localStorage.setItem ('studentStats', JSON.stringify (studentStats));
     setTimeout (() => {
       //this.props.history.push ('/');
-      window.location.replace ('/score');
+      window.location.replace ('/student-project/score');
     }, 500);
   };
 

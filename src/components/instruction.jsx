@@ -114,7 +114,7 @@ class Instruction extends Component {
                   </div>
                 </div>
                 <div className="col-3 position-relative">
-                  <Link to="/question">
+                  <Link to="/student-project/question">
                     <button className="btn instruction-btn position-absolute bottom-0">
                       Start
                     </button>

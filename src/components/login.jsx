@@ -21,6 +21,7 @@ class Login extends Form {
   doSubmit = () => {
     // Call the server
     console.log ('Form Submitted');
+    window.location.replace ('/student-project/home');
   };
 
   render () {

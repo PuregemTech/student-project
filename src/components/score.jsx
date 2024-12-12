@@ -42,7 +42,11 @@ class Score extends Component {
       <div className="container">
         <div className="row mt-3">
           <div className="col">
-            <Link to="/instruction"><img src={back} alt="" /></Link> Back
+            <Link to="/student-project/instruction">
+              <img src={back} alt="" />
+            </Link>
+            {' '}
+            Back
           </div>
           <div className="col">
             <img src={user} alt="" className="float-end" />
@@ -75,7 +79,7 @@ class Score extends Component {
             style={{display: 'flex', justifyContent: 'flex-end'}}
           >
 
-            <Link to="/home">
+            <Link to="/student-project/home">
               {' '}<button
                 className="btn"
                 style={{

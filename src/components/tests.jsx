@@ -55,7 +55,7 @@ class Tests extends Component {
                 <div className="card-body">
                   <h5>GST111</h5>
                   <h6 style={{color: '#696969'}}>Communication in English I</h6>
-                  <Link to="/instruction">
+                  <Link to="/student-project/instruction">
                     <img
                       src={backbutton}
                       alt=""

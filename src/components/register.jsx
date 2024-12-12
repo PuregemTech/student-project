@@ -78,7 +78,7 @@ class Register extends Form {
                     {' '}Already Have An Account?
                   </span>
                   {' '}
-                  <Link to="/login">Login</Link>
+                  <Link to="/student-project/login">Login</Link>
 
                 </div>
 

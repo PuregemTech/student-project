@@ -16,7 +16,7 @@ class Home extends Component {
           <div className="content m-4">
             <div className="row">
               <div className="col offset-8">
-                <Link to="/resume">
+                <Link to="/student-project/resume">
                   {' '}<button
                     className="btn btn-style"
                     style={{marginRight: '3rem'}}
@@ -24,7 +24,7 @@ class Home extends Component {
                     Resume
                   </button>
                 </Link>
-                <Link to="/restart">
+                <Link to="/student-project/restart">
                   <button className="btn btn-style">
                     Restart
                   </button>

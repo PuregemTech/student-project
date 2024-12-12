@@ -16,7 +16,7 @@ class SideBar extends Component {
         }}
       >
         <NavLink
-          to="/home"
+          to="/student-project/home"
           className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
         >
           <img
@@ -39,7 +39,11 @@ class SideBar extends Component {
         <hr />
         <ul className="nav nav-pills flex-column mb-auto">
           <li className="nav-item">
-            <NavLink to="/home" className="nav-link" aria-current="page">
+            <NavLink
+              to="/student-project/home"
+              className="nav-link"
+              aria-current="page"
+            >
               <i className="fa fa-home" />
               {' '}
               <span className="sidebar-link-text">
@@ -48,7 +52,7 @@ class SideBar extends Component {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/tests" className="nav-link link-dark">
+            <NavLink to="/student-project/tests" className="nav-link link-dark">
               <i className="fa fa-book" />
               <span className="sidebar-link-text">
                 Tests
@@ -56,7 +60,10 @@ class SideBar extends Component {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/result" className="nav-link link-dark">
+            <NavLink
+              to="/student-project/result"
+              className="nav-link link-dark"
+            >
               <i className="fa fa-home" />
               <span className="sidebar-link-text">
                 Results
@@ -64,7 +71,10 @@ class SideBar extends Component {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/notification" className="nav-link link-dark">
+            <NavLink
+              to="/student-project/notification"
+              className="nav-link link-dark"
+            >
               <i className="fa fa-bell" />
               <span className="sidebar-link-text">
                 Notifications
@@ -75,7 +85,7 @@ class SideBar extends Component {
         <hr />
         <ul className="nav nav-pills flex-column">
           <li>
-            <NavLink to="/#" className="nav-link link-dark">
+            <NavLink to="/student-project/#" className="nav-link link-dark">
               {' '}
               <i className="fa fa-sign-out" />
               <span className="sidebar-link-text">
