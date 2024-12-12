@@ -16,7 +16,7 @@ function App () {
   return (
     <React.Fragment>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/student-project" element={<LandingPage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/home" element={<Home />} />
