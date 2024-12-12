@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/student-project/static/css/main.403c9b1f.css",
-    "main.js": "/student-project/static/js/main.ded23628.js",
+    "main.js": "/student-project/static/js/main.4e5fcd4b.js",
     "static/js/453.657fc62e.chunk.js": "/student-project/static/js/453.657fc62e.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/student-project/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/Logo.png": "/student-project/static/media/Logo.0b425b78e9ef9d3ea5ab.png",
@@ -18,11 +18,11 @@
     "static/media/Group2.png": "/student-project/static/media/Group2.f84e44ef91cd748b10a9.png",
     "index.html": "/student-project/index.html",
     "main.403c9b1f.css.map": "/student-project/static/css/main.403c9b1f.css.map",
-    "main.ded23628.js.map": "/student-project/static/js/main.ded23628.js.map",
+    "main.4e5fcd4b.js.map": "/student-project/static/js/main.4e5fcd4b.js.map",
     "453.657fc62e.chunk.js.map": "/student-project/static/js/453.657fc62e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.403c9b1f.css",
-    "static/js/main.ded23628.js"
+    "static/js/main.4e5fcd4b.js"
   ]
 }
