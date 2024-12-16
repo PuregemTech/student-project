@@ -16,14 +16,14 @@ function App () {
   return (
     <React.Fragment>
       <Routes>
-        <Route path="/student-project" element={<LandingPage />} />
-        <Route path="/student-project/login" element={<Login />} />
-        <Route path="/student-project/register" element={<Register />} />
-        <Route path="/student-project/home" element={<Home />} />
-        <Route path="/student-project/tests" element={<Tests />} />
-        <Route path="/student-project/instruction" element={<Instruction />} />
-        <Route path="/student-project/question" element={<Question />} />
-        <Route path="/student-project/score" element={<Score />} />
+        <Route index element={<LandingPage />} />
+        <Route path="student-project/login" element={<Login />} />
+        <Route path="student-project/register" element={<Register />} />
+        <Route path="student-project/home" element={<Home />} />
+        <Route path="student-project/tests" element={<Tests />} />
+        <Route path="student-project/instruction" element={<Instruction />} />
+        <Route path="student-project/question" element={<Question />} />
+        <Route path="student-project/score" element={<Score />} />
 
       </Routes>
       {/* <LandingPage /> */}
